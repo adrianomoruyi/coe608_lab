@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, /home/student2/aeomoruy/coe608/light.vhd
+source_file = 1, /home/student2/aeomoruy/coe608/light.vwf
+source_file = 1, /home/student2/aeomoruy/coe608/output_files/Chain1.cdf
+source_file = 1, /home/student2/aeomoruy/coe608/db/light.cbx.xml
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /usr/local/Quartus14.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = light
+instance = comp, \f~output , f~output, light, 1
+instance = comp, \x2~input , x2~input, light, 1
+instance = comp, \x1~input , x1~input, light, 1
+instance = comp, \f~0 , f~0, light, 1
