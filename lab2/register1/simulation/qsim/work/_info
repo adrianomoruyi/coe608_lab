@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student2/aeomoruy/coe608/lab2/register1/simulation/qsim
+vregister1
+Z1 IinXOON0nU=f>=>Ra5KEH]2
+Z2 VGi3`=zXi3k[mjj7dlCOKP2
+Z3 d/home/student2/aeomoruy/coe608/lab2/register1/simulation/qsim
+Z4 w1737646083
+Z5 8register1.vo
+Z6 Fregister1.vo
+L0 32
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 7Sj1JN1Y`6FQDR=Q`GFmI2
+!s85 0
+Z10 !s108 1737646087.044157
+Z11 !s107 register1.vo|
+Z12 !s90 -work|work|register1.vo|
+!s101 -O0
+vregister1_vlg_check_tst
+!i10b 1
+!s100 CzR^LX7;hQk[5H`dm1j3i3
+Ii@VFhYleo3VhoKBRB7Z<`1
+VcG8;g`I>QP>0Lbc``akBX3
+R3
+Z13 w1737646080
+Z14 8register1.vwf.vt
+Z15 Fregister1.vwf.vt
+L0 64
+R7
+r1
+!s85 0
+31
+Z16 !s108 1737646087.335677
+Z17 !s107 register1.vwf.vt|
+Z18 !s90 -work|work|register1.vwf.vt|
+!s101 -O0
+R8
+vregister1_vlg_sample_tst
+!i10b 1
+!s100 OPZjAn`Ih8mH@^j>C?JXP3
+IOFh9U3MHzb>EFZ4>=W2M72
+V^Q7g7DFCfHLOUK^nj=Q`k2
+R3
+R13
+R14
+R15
+L0 30
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vregister1_vlg_vec_tst
+!i10b 1
+!s100 L8n`;gafP?@XbkoZ6PI0I3
+I>Q5D6>M<e6bbkNU^amINk2
+VXhNW_lj3_WJ9gol_LJo]M3
+R3
+R13
+R14
+R15
+L0 159
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
