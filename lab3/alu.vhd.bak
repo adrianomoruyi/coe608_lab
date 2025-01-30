@@ -1,0 +1,80 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity alu is
+port(
+    a     : in  std_logic_vector(31 downto 0);
+    b     : in  std_logic_vector(31 downto 0);
+    op    : in  std_logic_vector(2 downto 0);
+    result: out std_logic_vector(31 downto 0);
+    cout  : out std_logic;
+    zero  : out std_logic
+);
+end alu;
+
+architecture Behavior of alu is
+    component adder32
+    port(
+        Cin   : in  std_logic;
+        X, Y  : in  std_logic_vector(31 downto 0);
+        S     : out std_logic_vector(31 downto 0);
+        Cout  : out std_logic
+    );
+    end component;
+
+    signal result_s, result_add, result_sub: std_logic_vector(31 downto 0) := (others => '0');
+    signal not_b: std_logic_vector(31 downto 0) := (others => '0');
+    signal cout_s, cout_add, cout_sub: std_logic := '0';
+    signal zero_s: std_logic;
+begin
+
+    add0: adder32 port map(op(2), a, b, result_add, cout_add);
+    sub0: adder32 port map(op(2), a, not_b, result_sub, cout_sub);
+
+    process (a, b, op)
+    begin
+        case (op) is
+            when "000" =>  -- AND operation
+                result_s <= a and b;
+                cout_s   <= '0';
+            when "001" =>  -- OR operation
+                result_s <= a or b;
+                cout_s   <= '0';
+            when "010" =>  -- ADD operation
+                result_s <= result_add;
+                cout_s   <= cout_add;
+            when "011" =>  -- XOR operation
+                result_s <= a xor b;
+                cout_s   <= '0';
+            when "110" =>  -- SUB operation
+                result_s <= result_sub;
+                cout_s   <= cout_sub;
+            when "100" =>  -- Shift Left Logical (SLL)
+                result_s <= a(30 downto 0) & '0';
+                cout_s   <= '0';
+            when "101" =>  -- Shift Right Logical (SRL)
+                result_s <= '0' & a(31 downto 1);
+                cout_s   <= '0';
+            when others =>
+                result_s <= (others => '0');
+                cout_s   <= '0';
+        end case;
+    end process;
+
+    process (result_s)
+    begin
+        case (result_s) is
+            when (others => '0') =>
+                zero_s <= '1';
+            when others =>
+                zero_s <= '0';
+        end case;
+    end process;
+
+    result <= result_s;
+    cout   <= cout_s;
+    zero   <= zero_s;
+end Behavior;

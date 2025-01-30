@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student2/aeomoruy/coe608/lab3/simulation/qsim
+vadder32
+Z1 !s100 hK3QdDJ>iMZ229<SOTO8D0
+Z2 I=e0_Pai;_DjVjI0nVW]kf3
+Z3 VV]ECZ0d:6f^0il[>f?:kL1
+Z4 d/home/student2/aeomoruy/coe608/lab3/simulation/qsim
+Z5 w1738254359
+Z6 8lab3a.vo
+Z7 Flab3a.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|lab3a.vo|
+Z10 o-work work -O0
+Z11 !s108 1738254360.997212
+Z12 !s107 lab3a.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vadder32_vlg_check_tst
+Z13 !s100 GgljJn1I^WdOBM;TWa`jT3
+Z14 IKO6VL]oLGNfKJ<2P_RHPN2
+Z15 VJHkg8gl@^ghe3AXJ;a`I23
+R4
+Z16 w1738254355
+Z17 8Waveform32.vwf.vt
+Z18 FWaveform32.vwf.vt
+L0 62
+R8
+r1
+31
+Z19 !s108 1738254361.373423
+Z20 !s107 Waveform32.vwf.vt|
+Z21 !s90 -work|work|Waveform32.vwf.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vadder32_vlg_sample_tst
+Z22 !s100 IIFWkKV9HXod?>h9^l5=m3
+Z23 IAn`JTMH@NPRe4@j7]0Nd]2
+Z24 VI?PRdNe<dW4TNC4BL:Ng=0
+R4
+R16
+R17
+R18
+L0 30
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vadder32_vlg_vec_tst
+Z25 !s100 QS<6S0kMKZfJ0bFfIBAWH1
+Z26 IAhe_diCVckooJ:n=7Fe_Q1
+Z27 VG50dn_Cf:27MC^F`6dIKm3
+R4
+R16
+R17
+R18
+Z28 L0 741
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+Z29 !s100 ]LeOnz=nDLX7;on3c`k2X2
+Z30 IC[d[YhD2T8^[B:Yi27YR63
+Z31 VS0NjSj_XZSciZQ8cn44D53
+R4
+Z32 w1738254686
+R6
+R7
+L0 32
+R8
+r1
+31
+R9
+R10
+!i10b 1
+!s85 0
+Z33 !s108 1738254689.117396
+R12
+!s101 -O0
+valu_vlg_check_tst
+!i10b 1
+Z34 !s100 oghH^:BO0;z>b1=2FJNhm0
+Z35 IRNV<cij8>3a=9RQh?ik]61
+Z36 V?^VklCOoEA[:njKCde>ej0
+R4
+Z37 w1738254683
+Z38 8alu.vwf.vt
+Z39 Falu.vwf.vt
+L0 62
+R8
+r1
+!s85 0
+31
+Z40 !s108 1738254689.710242
+Z41 !s107 alu.vwf.vt|
+Z42 !s90 -work|work|alu.vwf.vt|
+!s101 -O0
+R10
+valu_vlg_sample_tst
+!i10b 1
+Z43 !s100 k1]0eNPYJN94bZj_VogEV3
+Z44 IJ=:CMNjHYJkNL=GN@bn2O0
+Z45 VD>9ZKXfmM9NdZ29<4YFei1
+R4
+R37
+R38
+R39
+L0 30
+R8
+r1
+!s85 0
+31
+R40
+R41
+R42
+!s101 -O0
+R10
+valu_vlg_vec_tst
+!i10b 1
+Z46 !s100 [`0L26_65Z5<2^`Z1K>ke2
+Z47 I88Y5PRJYJb>zVW`NfU=T60
+Z48 VKh<<g<fN<83>nOE>KA>;A3
+R4
+R37
+R38
+R39
+Z49 L0 768
+R8
+r1
+!s85 0
+31
+R40
+R41
+R42
+!s101 -O0
+R10
